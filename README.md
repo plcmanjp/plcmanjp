@@ -17,6 +17,7 @@ PLC and industrial automation engineer focused on control software, electrical d
 | 프로젝트 | 설명 | 바로 사용하기 |
 | --- | --- | --- |
 | [PLC 엔지니어의 작은 업무수첩](https://github.com/plcmanjp/PLC-IO-Check-Helper-Release) | Android에서 Mitsubishi MELSEC PLC에 Ethernet으로 연결해 I/O 상태와 디바이스 값을 읽는 현장 점검 앱 | [Google Play](https://play.google.com/store/apps/details?id=com.plciocheck.iocheck) |
+| [FeedGrove](https://plcmanjp.github.io/feedgrove/) | RSS와 Atom, 일반 웹페이지를 한곳에서 구독하고 규칙 기반 다이제스트를 구성하는 로컬 우선 Android 피드 리더 | [Google Play](https://play.google.com/store/apps/details?id=com.plcmanjp.feedgrove) |
 | [엔지니어 도구](https://github.com/plcmanjp/engineer-tool) | PLC와 자동화 실무에서 자주 쓰는 계산과 변환을 브라우저에서 제공하는 무료 도구 모음 | [웹에서 실행](https://plcmanjp.github.io/engineer-tool/) |
 | [Ladder Quest](https://github.com/plcmanjp/ladder-quest) | 래더 로직으로 가상 현장 설비를 제어하는 무료 브라우저 퍼즐 게임 | [게임 실행](https://plcmanjp.github.io/ladder-quest/) |
 | [JP's Codeless Macro Tool](https://github.com/plcmanjp/JPs-Codeless-Macro-Tool-Release) | 마우스, 키보드와 이미지 인식 기반 화면 자동화를 코딩 없이 구성하는 Windows 도구 | [Microsoft Store](https://apps.microsoft.com/detail/9NXX9L2ZW52W) |
