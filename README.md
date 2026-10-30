@@ -63,7 +63,7 @@ Excel의 글자를 덕트 라벨용 DXF 도면으로 만드는 앱입니다. `.x
 
 Mitsubishi FX5 계열과 Q 계열 프로젝트의 래더 텍스트와 코멘트를 검토하고, 반대 계열의 GX 가져오기용 CSV 후보를 만듭니다.
 
-생성 결과는 GX와 실제 설비에서 별도로 검증해야 합니다. PLC 접속이나 다운로드 기능은 없습니다.
+앱 소스는 MIT 라이선스로 공개하며, 포함된 라이브러리와 Qt/PySide6 등에는 각자의 라이선스가 적용됩니다. 생성 결과는 GX와 실제 설비에서 별도로 검증해야 합니다. PLC 접속이나 다운로드 기능은 없습니다.
 
 [Windows 다운로드](https://github.com/plcmanjp/fx5-q-converter/releases/latest) | [지원 범위와 사용 안내](https://github.com/plcmanjp/fx5-q-converter)
 
@@ -73,7 +73,7 @@ Mitsubishi FX5 계열과 Q 계열 프로젝트의 래더 텍스트와 코멘트�
 
 **Web | 현장 계산과 변환**
 
-수치와 기하, 서보와 모션, 통신과 코드 계산을 돕는 무료 웹 도구 14종입니다. 서보 이동시간과 이상코드 검색, 버퍼 주소 계산, 인버터 컨베이어 속도, Modbus RTU 프레임 생성 등을 설치와 회원가입 없이 사용할 수 있습니다. 계산은 브라우저에서 처리하며 Modbus RTU 도구는 실제 장치에 송신하지 않습니다.
+수치와 기하, PLC 자료 검색, 서보와 모션, 통신과 코드를 다루는 무료 웹 도구 16종입니다. SM/SD 주소 검색, 인버터와 서보 이상코드 검색, 서보 버퍼 주소 계산, 이동시간 계산과 Modbus RTU 프레임 생성 등을 설치와 회원가입 없이 사용할 수 있습니다. 계산과 검색은 기기에서 처리하며 Modbus RTU 도구는 실제 장치에 송신하지 않습니다. 공식 자료를 열 때는 인터넷 연결이 필요합니다.
 
 [웹에서 실행](https://plcmanjp.github.io/engineer-tool/) | [공개 저장소](https://github.com/plcmanjp/engineer-tool)
 
@@ -87,15 +87,17 @@ Mitsubishi FX5 계열과 Q 계열 프로젝트의 래더 텍스트와 코멘트�
 
 ## 개발자용 공개 소스
 
-### GX RE Toolkit
+### GX Project Toolkit
 
 **Python | 지원 범위의 GX Works 프로젝트 형식 분석**
 
-명시된 GXW와 GX3 프로젝트 형식을 오프라인으로 분석하는 독립 연구 도구입니다. Python 소스를 공개하며, 지원 CPU와 형식별 제한은 문서에서 확인할 수 있습니다. 전체 작성 기능은 Windows와 pywin32를 사용합니다.
+명시된 GXW와 GX3 프로젝트 형식을 오프라인으로 분석하는 독립 연구 도구입니다. Python 3.12 이상을 사용하며, 지원 CPU와 형식별 제한은 문서에서 확인할 수 있습니다.
+
+GXW 읽기 전용 프리뷰는 Q06UDV의 제한된 관측, 입력 SHA 검증과 로컬 CLI/MCP를 제공합니다. 프리뷰에는 읽기 모듈만 포함되며, 기존 작성 기능은 포함되지 않습니다.
 
 소스는 오프라인 연구용이며 현장 적용 승인본이 아닙니다. 분석 성공이 GX 재빌드, 공식 내보내기 결과와의 일치 또는 PLC 적용 안전성을 보장하지 않습니다.
 
-[공개 저장소](https://github.com/plcmanjp/gx-re-toolkit) | [한국어 안내](https://github.com/plcmanjp/gx-re-toolkit/blob/main/README-ko.md) | [지원 범위와 제한](https://github.com/plcmanjp/gx-re-toolkit/blob/main/docs/compatibility-matrix-ko.md)
+[공개 저장소](https://github.com/plcmanjp/gx-project-toolkit) | [한국어 안내](https://github.com/plcmanjp/gx-project-toolkit/blob/main/README-ko.md) | [GXW 읽기 전용 프리뷰](https://github.com/plcmanjp/gx-project-toolkit/blob/main/docs/gxw-read-v1.md) | [지원 범위와 제한](https://github.com/plcmanjp/gx-project-toolkit/blob/main/docs/compatibility-matrix-ko.md)
 
 ### MELSEC MC Kotlin
 
