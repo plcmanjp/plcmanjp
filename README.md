@@ -17,7 +17,7 @@ PLC와 산업 자동화 현장에서 필요한 도구를 만들고 공개하는 
 
 ## 주요 앱
 
-### PLC 엔지니어의 작은 업무수첩
+### PLC 업무수첩
 
 **Android | MELSEC I/O 점검과 모니터링**
 
@@ -25,7 +25,7 @@ Mitsubishi MELSEC PLC에 Ethernet으로 연결해 I/O 상태와 디바이스 값
 
 읽기 전용 모니터링 도구로, PLC 값을 쓰거나 출력을 강제로 켜지 않습니다.
 
-[Google Play에서 설치](https://play.google.com/store/apps/details?id=com.plciocheck.iocheck) | [제품 소개와 가이드](https://github.com/plcmanjp/plc-io-check-helper)
+[Google Play에서 설치](https://play.google.com/store/apps/details?id=com.plciocheck.iocheck) | [앱 소개](https://plcmanjp.github.io/plc-io-check-helper/) | [제품 안내와 가이드](https://github.com/plcmanjp/plc-io-check-helper)
 
 ### JP's Codeless Macro Tool
 
@@ -35,7 +35,7 @@ Mitsubishi MELSEC PLC에 Ethernet으로 연결해 I/O 상태와 디바이스 값
 
 최신 설치와 업데이트는 Microsoft Store에서 제공합니다.
 
-[Microsoft Store에서 설치](https://apps.microsoft.com/detail/9NXX9L2ZW52W) | [사용 안내와 매뉴얼](https://github.com/plcmanjp/codeless-macro-tool)
+[Microsoft Store에서 설치](https://apps.microsoft.com/detail/9NXX9L2ZW52W) | [앱 소개](https://plcmanjp.github.io/codeless-macro-tool/) | [사용 안내와 매뉴얼](https://github.com/plcmanjp/codeless-macro-tool)
 
 ### FeedGrove
 
